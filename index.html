@@ -19,9 +19,13 @@
     a{
         text-decoration: none;
     }
+    .socialicon {
+        height: 40px; 
+        filter: invert(100%);
+    }
     @media only screen and (max-width: 700px) {
-        img {
-            size: 30px;
+        .socialicon {
+            height: 30px;
         }
     }
 </style>
@@ -52,16 +56,16 @@
         <div style="width:100%">
             <div style="position:fixed; top: 65vh; left: 50%; transform:translate(-50%); display:block;">
                 <a href="https://youtube.com/@casa.aurora">
-                    <img src="/docs/assets/images/youtube.png" style="height: 40px; filter: invert(100%);">
+                    <img src="/docs/assets/images/youtube.png" class="socialicon">
                 </a>
                 <a href="https://instagram.com/casaaurora.sp">
-                    <img src="/docs/assets/images/instagram.png" style="height: 40px; filter: invert(100%);">
+                    <img src="/docs/assets/images/instagram.png" class="socialicon">
                 </a>
                 <a href="https://mixcloud.com/casaaurora">
-                    <img src="/docs/assets/images/mixcloud.png" style="height: 40px; filter: invert(100%);">
+                    <img src="/docs/assets/images/mixcloud.png" class="socialicon">
                 </a>
                 <a href="mailto:contato@casaaurora.live">
-                    <img src="/docs/assets/images/email.png" style="height: 40px; filter: invert(100%);">
+                    <img src="/docs/assets/images/email.png" class="socialicon">
                 </a>
             </div>
         </div>
